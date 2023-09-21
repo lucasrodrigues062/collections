@@ -1,0 +1,23 @@
+_id: req_faed7f9662ac46959a3cc2b275e825f9
+type: Request
+parentId: wrk_b291a0585bd741b7af414a59d5c551c0
+modified: 1694719730461
+created: 1694719708023
+url: "{{ _.url }}/api/petronas/envio/clientes"
+name: Clientes
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694694044739
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

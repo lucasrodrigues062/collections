@@ -1,0 +1,14 @@
+_id: env_b274adbccc844fdb827618d871614d0a
+type: Environment
+parentId: env_f391363f36b256afe5b45fadf94cbe6d6ab94f21
+modified: 1694695111071
+created: 1694695058495
+name: SandBox
+data:
+  url: http://localhost:6500
+dataPropertyOrder:
+  "&":
+    - url
+color: null
+isPrivate: false
+metaSortKey: 1694695058495

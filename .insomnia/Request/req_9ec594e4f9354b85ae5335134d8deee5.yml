@@ -1,0 +1,23 @@
+_id: req_9ec594e4f9354b85ae5335134d8deee5
+type: Request
+parentId: wrk_b291a0585bd741b7af414a59d5c551c0
+modified: 1694719714919
+created: 1694694158014
+url: "{{ _.url }}/api/petronas/envio/precos"
+name: Precos
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694694044789
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
