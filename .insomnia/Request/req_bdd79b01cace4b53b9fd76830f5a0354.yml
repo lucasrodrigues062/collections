@@ -1,0 +1,31 @@
+_id: req_bdd79b01cace4b53b9fd76830f5a0354
+type: Request
+parentId: wrk_b291a0585bd741b7af414a59d5c551c0
+modified: 1696505093895
+created: 1696504557604
+url: "{{ _.url }}/api/petronas/envio/pedidos"
+name: Pedidos (por data)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data_inicial": "01/10/2023",
+    	"data_final": "31/10/2023"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694694044851.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

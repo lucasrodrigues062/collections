@@ -1,0 +1,91 @@
+_id: req_2b6c1fbec4064a59a5deb688995482da
+type: Request
+parentId: fld_27613084eb9e44e88f327dd988df57ea
+modified: 1697737800101
+created: 1695693488837
+url: https://laafpetronas.inovareti.eti.br/api/petronas/Sfa/BR/Order
+name: Insert Petronas Order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    [
+    	{
+    		"attributes": {
+    			"type": "Order",
+    			"url": "/services/data/v59.0/sobjects/Order/8011e0000006PLGAA2"
+    		},
+    		"AccountId": "0011e00000fr04pAAA",
+    		"CountryCode__c": "NBR",
+    		"DeliveryType__c": "CIF",
+    		"Destination__c": "SEM",
+    		"ebMobile__DriverMessage__c": "Nota",
+    		"ebMobile__IsActive__c": true,
+    		"ebMobile__NetAmount__c": 428.74,
+    		"ebMobile__OrderDate__c": "2023-09-25T13:10:11.000+0000",
+    		"ebMobile__OrderSource__c": "SFA Mobile",
+    		"ebMobile__PaymentKeyTerms__c": "14 Dias",
+    		"ebMobile__TotalAmount__c": 442.00,
+    		"ebMobile__TotalQuantity__c": 20.00,
+    		"ebMobile__UserCode__c": "FAALPB-00023",
+    		"ExpectedDeliveryDate__c": "2023-09-30T03:00:00.000+0000",
+    		"Id": "8011e0000006PLGAA2",
+    		"OrderNumber": "0010001710",
+    		"OrderTotalVolume__c": 480.000,
+    		"PaymentMethod__c": "SEM PADRAO",
+    		"PoNumber": "Po",
+    		"SFAOrderNumber__c": "0010001710",
+    		"ShipToAddress__c": "C011641,BRAZIL COMBUSTIVEIS LTDA,AV. DUQUE DE CAXIAS, 172,,-  -,CENTRO,CABEDELO,PB,58310000",
+    		"Status": "New",
+    		"TaxLineNetAmount__c": 428.74,
+    		"Type": "Sales Order",
+    		"Account": {
+    			"attributes": {
+    				"type": "Account",
+    				"url": "/services/data/v59.0/sobjects/Account/0011e00000fr04pAAA"
+    			},
+    			"AccountNumber": "C011641",
+    			"ParentId": "0011e00000eafrHAAQ",
+    			"OwnerId": "0051e000004UG5nAAG",
+    			"Id": "0011e00000fr04pAAA",
+    			"Parent": {
+    				"attributes": {
+    					"type": "Account",
+    					"url": "/services/data/v59.0/sobjects/Account/0011e00000eafrHAAQ"
+    				},
+    				"Name": "FAALPB",
+    				"DTCode__c": "FAALPB",
+    				"Id": "0011e00000eafrHAAQ"
+    			},
+    			"Owner": {
+    				"attributes": {
+    					"type": "User",
+    					"url": "/services/data/v59.0/sobjects/User/0051e000004UG5nAAG"
+    				},
+    				"ebMobile__UserCode__c": "FAALPB-00023",
+    				"Id": "0051e000004UG5nAAG"
+    			}
+    		},
+    		"AccountNumber__c": "C011641",
+    		"UserCode__c": "FAALPB-00023",
+    		"DTCode__c": "FAALPB"
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: ed91a9f64a03896a76bd091f5128f10d169cf51f
+metaSortKey: -1695693488837
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

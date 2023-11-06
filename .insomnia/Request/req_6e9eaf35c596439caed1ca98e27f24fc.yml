@@ -1,0 +1,23 @@
+_id: req_6e9eaf35c596439caed1ca98e27f24fc
+type: Request
+parentId: fld_e18ca2078a9b4d8a92053dfda1cc13f4
+modified: 1695667910276
+created: 1695667646581
+url: "{{ _.base_url }}/public/v3/tipos-produto"
+name: Lista Produtos (Paripassu)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695667646581
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

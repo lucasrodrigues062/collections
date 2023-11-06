@@ -1,0 +1,31 @@
+_id: req_8466c20e5f374afaa9ebd9cfc22ed734
+type: Request
+parentId: wrk_b291a0585bd741b7af414a59d5c551c0
+modified: 1698098342407
+created: 1697736849688
+url: https://faalpetronas.inovareti.eti.br:2087/api/petronas/token
+name: Login (Iraponam)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username":"petronas",
+    	"password": "petronas"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694694044860.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

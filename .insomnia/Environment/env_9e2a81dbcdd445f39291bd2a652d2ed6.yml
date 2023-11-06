@@ -1,0 +1,14 @@
+_id: env_9e2a81dbcdd445f39291bd2a652d2ed6
+type: Environment
+parentId: env_f391363f36b256afe5b45fadf94cbe6d6ab94f21
+modified: 1695667636096
+created: 1695667574633
+name: Paripassu
+data:
+  base_url: https://bas.paripassu.com.br
+dataPropertyOrder:
+  "&":
+    - base_url
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1695667574633

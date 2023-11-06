@@ -1,0 +1,30 @@
+_id: req_26c29168712744f38422baa588734a5b
+type: Request
+parentId: wrk_b291a0585bd741b7af414a59d5c551c0
+modified: 1697824220214
+created: 1697562775060
+url: "{{ _.url }}/api/petronas/cancela/pedidos"
+name: Pedidos (cancelar)
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"numero_pedido_petronas": "0010003054"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694694044842.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

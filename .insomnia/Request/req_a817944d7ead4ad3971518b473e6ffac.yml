@@ -1,0 +1,30 @@
+_id: req_a817944d7ead4ad3971518b473e6ffac
+type: Request
+parentId: wrk_b291a0585bd741b7af414a59d5c551c0
+modified: 1698241761370
+created: 1696505221856
+url: "{{ _.url }}/api/petronas/envio/pedidos"
+name: Pedidos (numero pedido - cronos)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"numero_pedido_cronos": "5000000248"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694694044845.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
