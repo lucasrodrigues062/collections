@@ -1,7 +1,7 @@
 _id: req_f3450e62d4be4a149c6951758f91d819
 type: Request
 parentId: wrk_b291a0585bd741b7af414a59d5c551c0
-modified: 1694695142171
+modified: 1699307571660
 created: 1694694044889
 url: "{{ _.url }}/api/petronas/envio/estoque"
 name: Estoque
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694694044889
+metaSortKey: -1694694044840.5625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

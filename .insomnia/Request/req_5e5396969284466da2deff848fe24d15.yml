@@ -1,7 +1,7 @@
 _id: req_5e5396969284466da2deff848fe24d15
 type: Request
 parentId: wrk_b291a0585bd741b7af414a59d5c551c0
-modified: 1694695129467
+modified: 1699307574029
 created: 1694694140666
 url: "{{ _.url }}/api/petronas/envio/produtos"
 name: Produto
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694694044839
+metaSortKey: -1694694044841.3438
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_9ec594e4f9354b85ae5335134d8deee5
 type: Request
 parentId: wrk_b291a0585bd741b7af414a59d5c551c0
-modified: 1694719714919
+modified: 1699303570991
 created: 1694694158014
 url: "{{ _.url }}/api/petronas/envio/precos"
 name: Precos
